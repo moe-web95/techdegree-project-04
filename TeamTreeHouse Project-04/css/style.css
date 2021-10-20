@@ -423,16 +423,6 @@ a {
   text-decoration: none;
 }
 
-/* line 20, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
-.default {
-  background-color: #51ddfc;
-}
-
-/* line 24, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
-.error {
-  background-color: #e4757a;
-}
-
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
@@ -445,6 +435,16 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+}
+
+/* line 15, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.default {
+  background-color: #51ddfc;
+}
+
+/* line 19, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.error {
+  background-color: #e4757a;
 }
 
 /* ============================================= */
