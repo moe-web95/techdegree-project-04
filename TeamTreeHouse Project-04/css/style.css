@@ -404,6 +404,36 @@ template {
 }
 
 /* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+/* line 5, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 11, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 15, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 20, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
+.default {
+  background-color: #51ddfc;
+}
+
+/* line 24, ../techdegree-project-04/TeamTreeHouse Project-04/scss/base/_base.scss */
+.error {
+  background-color: #e4757a;
+}
+
+/* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 /* line 5, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
@@ -559,6 +589,37 @@ template {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 5, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 14, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 24, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
