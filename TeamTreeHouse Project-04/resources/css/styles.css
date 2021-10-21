@@ -9,7 +9,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $break-s) {
+@media (min-width: $mq) {
 
 .container {
   max-width: 1400px;
