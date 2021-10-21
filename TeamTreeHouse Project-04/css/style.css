@@ -622,4 +622,109 @@ a {
   margin-right: auto;
 }
 
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 6, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 13, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 19, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 22, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 29, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 33, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 37, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 41, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 45, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 49, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 53, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 57, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 61, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 65, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 69, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 73, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 77, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 81, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 87, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 91, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 95, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 99, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_media-queries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
