@@ -444,7 +444,7 @@ a {
 
 /* line 11, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
 .default:hover {
-  background-color: #839deb;
+  background-color: #4dff4d;
   transition: .3s ease-in-out;
 }
 
@@ -455,7 +455,7 @@ a {
 
 /* line 19, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
 .error:hover {
-  background-color: #ff7d4d;
+  background-color: #4dff4d;
   transition: .3s ease-in-out;
 }
 
