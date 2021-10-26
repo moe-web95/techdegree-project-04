@@ -10,7 +10,7 @@
     background-color: $color-four;
     &:hover{
       background-color: $bg-default-light;
-      transition: .3s ease-in-out;
+      @include trans;
     }
   }
   
@@ -18,9 +18,30 @@
     background-color: $color-five;
     &:hover{
       background-color: $bg-error-light;
-      transition: .3s ease-in-out;
+      @include trans;
     }
   }
+  .success{
+    background-color: $color-success;
+    &:hover{
+      background-color: $bg-success-light;
+      @include trans;
+    }
+  }
+  .warning{
+    background-color: $color-warning;
+    &:hover{
+      background-color: $bg-warning-light;
+      @include trans;
+    }
+  }
+  .info{
+    background-color: $color-info;
+    &:hover{
+      background-color: $bg-error-light;
+      @include trans;
+      }
+    }
   
 
   

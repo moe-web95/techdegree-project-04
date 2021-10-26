@@ -444,7 +444,7 @@ a {
 
 /* line 11, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
 .default:hover {
-  background-color: #4dff4d;
+  background-color: #839deb;
   transition: .3s ease-in-out;
 }
 
@@ -455,7 +455,40 @@ a {
 
 /* line 19, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
 .error:hover {
-  background-color: #4dff4d;
+  background-color: #ff7d4d;
+  transition: .3s ease-in-out;
+}
+
+/* line 24, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.success {
+  background-color: #4b0082;
+}
+
+/* line 26, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.success:hover {
+  background-color: #7700cf;
+  transition: .3s ease-in-out;
+}
+
+/* line 31, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.warning {
+  background-color: #006400;
+}
+
+/* line 33, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.warning:hover {
+  background-color: #00b100;
+  transition: .3s ease-in-out;
+}
+
+/* line 38, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.info {
+  background-color: #000080;
+}
+
+/* line 40, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.info:hover {
+  background-color: #ff7d4d;
   transition: .3s ease-in-out;
 }
 

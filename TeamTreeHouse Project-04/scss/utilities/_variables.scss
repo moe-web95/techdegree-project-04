@@ -7,11 +7,16 @@ $color-sec:#2e8b57;
 $color-third:#191970;
 $color-four:#4169e1;
 $color-five:#ff4500;
-$color-accent:#00ff00;
+$color-success:	#4b0082;
+$color-warning:#006400;
+$color-info:	#000080;
 
 //lighten color function
-$bg-default-light:lighten($color-accent, 15%);
-$bg-error-light:lighten($color-accent, 15%);
+$bg-default-light:lighten($color-four, 15%);
+$bg-error-light:lighten($color-five, 15%);
+$bg-success-light:lighten($color-success, 15%);
+$bg-warning-light:lighten($color-warning, 15%);
+$bg-info-light:lighten($color-info, 15%);
 
 
 // font variable
