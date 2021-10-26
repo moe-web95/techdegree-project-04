@@ -38,7 +38,7 @@
   .info{
     background-color: $color-info;
     &:hover{
-      background-color: $bg-error-light;
+      background-color: $bg-info-light;
       @include trans;
       }
     }
