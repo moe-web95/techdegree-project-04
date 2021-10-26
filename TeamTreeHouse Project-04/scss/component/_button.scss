@@ -3,21 +3,23 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color:$color-sec;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+    @include button;
   }
 
   .default {
     background-color: $color-four;
+    &:hover{
+      background-color: $bg-default-light;
+      transition: .3s ease-in-out;
+    }
   }
   
   .error {
     background-color: $color-five;
+    &:hover{
+      background-color: $bg-error-light;
+      transition: .3s ease-in-out;
+    }
   }
   
 

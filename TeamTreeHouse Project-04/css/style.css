@@ -437,14 +437,26 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+/* line 9, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
 .default {
   background-color: #4169e1;
 }
 
-/* line 19, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+/* line 11, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.default:hover {
+  background-color: #839deb;
+  transition: .3s ease-in-out;
+}
+
+/* line 17, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
 .error {
   background-color: #ff4500;
+}
+
+/* line 19, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_button.scss */
+.error:hover {
+  background-color: #ff7d4d;
+  transition: .3s ease-in-out;
 }
 
 /* ============================================= */
@@ -486,8 +498,8 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_navigation.scss */
-.nav-link {
+/* line 11, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_navigation.scss */
+.nav .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -496,8 +508,8 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_navigation.scss */
-.nav-link:hover {
+/* line 21, ../techdegree-project-04/TeamTreeHouse Project-04/scss/component/_navigation.scss */
+.nav .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
